@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@layer base {
+  :root { color-scheme: dark; }
+  html { min-width: 320px; background: #080e18; scroll-behavior: smooth; }
+  body { margin: 0; min-width: 320px; min-height: 100vh; }
+  button { -webkit-tap-highlight-color: transparent; }
+  ::selection { background: #00e5a8; color: #07111b; }
+}
